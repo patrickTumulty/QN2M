@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="osWZdL" name="QN2M" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              companyName="P-TR4K" companyEmail="ptumulty1@gmail.com" pluginCharacteristicsValue="pluginIsMidiEffectPlugin,pluginProducesMidiOut"
+              pluginVST3Category="Instrument">
+  <MAINGROUP id="QPL6S6" name="QN2M">
+    <GROUP id="{4AC2625D-2237-8505-837F-EF9C575BE3A2}" name="Assets">
+      <FILE id="Xv4cPn" name="Keyboard2358x342.png" compile="0" resource="1"
+            file="Assets/Keyboard2358x342.png"/>
+      <FILE id="jVez2c" name="QN2M_Logo.png" compile="0" resource="1" file="Assets/QN2M_Logo.png"/>
+    </GROUP>
+    <GROUP id="{451AE205-AAD5-6758-2D4C-29C1C5703FA3}" name="Source">
+      <FILE id="phiYcM" name="QN2M_NoteRangeSelectorV2.cpp" compile="1" resource="0"
+            file="Source/QN2M_NoteRangeSelectorV2.cpp"/>
+      <FILE id="us6QYV" name="QN2M_NoteRangeSelectorV2.h" compile="0" resource="0"
+            file="Source/QN2M_NoteRangeSelectorV2.h"/>
+      <FILE id="ZknCFC" name="QN2M_NoteRangeSelector.cpp" compile="1" resource="0"
+            file="Source/QN2M_NoteRangeSelector.cpp"/>
+      <FILE id="Vwqlnh" name="QN2M_NoteRangeSelector.h" compile="0" resource="0"
+            file="Source/QN2M_NoteRangeSelector.h"/>
+      <FILE id="qSI4gQ" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="PLB6yD" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="y563am" name="QN2M_MainPanel.cpp" compile="1" resource="0"
+            file="Source/QN2M_MainPanel.cpp"/>
+      <FILE id="a10P0h" name="QN2M_MainPanel.h" compile="0" resource="0"
+            file="Source/QN2M_MainPanel.h"/>
+      <FILE id="NzVqeS" name="QN2M_MidiProcessor.cpp" compile="1" resource="0"
+            file="Source/QN2M_MidiProcessor.cpp"/>
+      <FILE id="bNMXFv" name="QN2M_MidiProcessor.h" compile="0" resource="0"
+            file="Source/QN2M_MidiProcessor.h"/>
+      <FILE id="TEQaeg" name="QN2M_KeyboardButtons.cpp" compile="1" resource="0"
+            file="Source/QN2M_KeyboardButtons.cpp"/>
+      <FILE id="QrcuEp" name="QN2M_KeyboardButtons.h" compile="0" resource="0"
+            file="Source/QN2M_KeyboardButtons.h"/>
+      <FILE id="tfGpTz" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="eKGIKR" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="JBQEgl" name="QN2M_PianoDisplay.cpp" compile="1" resource="0"
+            file="Source/QN2M_PianoDisplay.cpp"/>
+      <FILE id="okxeOg" name="QN2M_PianoDisplay.h" compile="0" resource="0"
+            file="Source/QN2M_PianoDisplay.h"/>
+      <FILE id="AeCx4a" name="QN2M_Logo.cpp" compile="1" resource="0" file="Source/QN2M_Logo.cpp"/>
+      <FILE id="tYNmnE" name="QN2M_Logo.h" compile="0" resource="0" file="Source/QN2M_Logo.h"/>
+      <FILE id="B6FrKU" name="QN2M_RandomizationPanel.cpp" compile="1" resource="0"
+            file="Source/QN2M_RandomizationPanel.cpp"/>
+      <FILE id="x0fzP5" name="QN2M_RandomizationPanel.h" compile="0" resource="0"
+            file="Source/QN2M_RandomizationPanel.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="QN2M"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="QN2M"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Applications/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX buildEnabled="1"/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
