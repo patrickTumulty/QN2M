@@ -6,6 +6,8 @@ QN2M (Quantized Noise to Midi) is a Midi generating plugin. Users get to define 
 	<img src="Images/GUIExample.png" width="500">
 </p>
 
+*Note: This is an active project and doesn't yet reflect an alpha stage*
+
 ## Inspiration
 
 The inspiration for this project came from studying modular synthesis techniques over the duration of a semester. During this class, I noticed that I was using a similar set of modules each time I began a new patch. This sequence of modules is illustrated below in VCVRack. We start with a clock (Square wave) that decides our tempo. That clock will control an ADSR envelope and a noise generator. We now get a new random value from the noise generator with every pulse of our clock. That random noise value gets quantized into a musical pitch based on a user defined scale. In this example we are quantizing these noise values to a C major scale. The ADSR controls the envelope of a VCO and voila! Endless music!
